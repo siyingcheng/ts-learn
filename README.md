@@ -13,6 +13,9 @@ For example on Arch:
 sudo pacman -S nvm
 echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.zshrc
 source ~/.zshrc
+
+nvm install
+nvm use
 ```
 
 Now, we can install typescript and other package if need by `npm`.
